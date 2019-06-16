@@ -14,9 +14,12 @@ To use **uomthesisdown** from RStudio:
 install.packages("devtools")
 devtools::install_github("rstudio/bookdown")
 devtools::install_github("juliov/uomthesisdown")
+library("uomthesisdown")
 ```
 
 3) Use the **File** > **New File** > **R Markdown...** dialog to select **From Template** and then **UoM Thesis**. **Important: name the folder _index_**
+
+![New R Markdown](thesis_rmd.png)
 
 ## Usage
 

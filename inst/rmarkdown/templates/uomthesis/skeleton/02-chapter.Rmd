@@ -155,23 +155,6 @@ kable(max_delays,
 
 The last two options make the table a little easier-to-read.
 
-We can further look into the properties of the largest value here for American Airlines Inc.  To do so, we can isolate the row corresponding to the arrival delay of 1539 minutes for American in our original `flights` dataset.
-
-
-```{r max_props}
-flights %>% filter(arr_delay == 1539, 
-                  carrier_name == "American Airlines Inc.") %>%
-  select(-c(month, day, carrier, dest_name, hour, 
-            minute, carrier_name, arr_delay))
-```
-
-We see that the flight occurred on March 3rd and departed a little after 2 PM on its way to Dallas/Fort Worth.  Lastly, we show how we can visualize the arrival delay of all departing flights from Portland on March 3rd against time of departure.
-
-```{r march3plot, fig.height=3, fig.width=6}
-flights %>% filter(month == 3, day == 3) %>%
-  ggplot(aes(x = dep_time, y = arr_delay)) + geom_point()
-```
-
 ## Additional resources
 
 - _Markdown_ Cheatsheet - <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
