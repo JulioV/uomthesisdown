@@ -6,4 +6,5 @@ inst/rmarkdown/templates/thesis/index/_bookdown_files/
 *.Rproj
 template.*
 !template.tex
+!template.yaml
 thesis.log
