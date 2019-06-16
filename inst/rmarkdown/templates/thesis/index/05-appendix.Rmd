@@ -1,0 +1,13 @@
+# (APPENDIX) Appendix {-}
+
+# Example 1 {#appendix:a1}
+
+This is an appendix, you add content as in any other chapter. Appendix 2 shows you how to import a PDF as appendix. Note you can make the appendices unnumbered by adding `{-}` after `Appendix` at the beginning of this chapter.
+
+- List 1
+- List 2
+- List 3
+
+# Example 2 (PDF){#appendix:a2}
+
+\includepdf[pages={-}, scale=1]{data/appendix/pdfExample.pdf}

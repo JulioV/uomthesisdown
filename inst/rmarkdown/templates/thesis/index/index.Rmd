@@ -1,0 +1,82 @@
+---
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+
+# degree. The default is PhD, to change this go to the second line of template.tex and swap PhD for MSc, MPhil, MRes or EngD.
+faculty: 'Faculty of Science and Engineering'
+school: 'School of Computer Science'
+degree: 'PhD'
+title: 'My Thesis Title'
+author: 'Jane E. Doe'
+supervisor: 'Mary Jhones'
+abstract: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
+acknowledgments: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-acknowledgments.Rmd"), collapse = '\n  ')`
+output: 
+    thesisdown::thesis_pdf: default
+    #thesisdown::thesis_gitbook: default
+    number_sections: true
+
+bibliography: bib/test_bibliography.bib
+link-citations: true  # make the citations clickable
+# Download your specific bibliography database file and refer to it in the line below.
+csl: csl/apa.csl
+
+# space_between_paragraphs: true
+# Delete the # at the beginning of the previous line if you'd like
+# to have a blank new line between each paragraph
+
+# Add new latex packages below
+header-includes:
+  \usepackage{array}
+  \usepackage{pdflscape}
+  \usepackage{lscape}
+  \newcommand{\blandscape}{\begin{landscape}}
+  \newcommand{\elandscape}{\end{landscape}}
+  \usepackage{longtable}
+  \usepackage[table]{xcolor}
+  \usepackage{afterpage}
+  \usepackage{makecell}
+  \usepackage{pdfpages}
+  \usepackage[utf8]{inputenc}
+  \usepackage{emptypage}
+---
+
+<!--
+Above is the YAML (YAML Ain't Markup Language) header that includes a lot of metadata used to produce the document.  Be careful with spacing in this header!
+
+If you have other LaTeX packages you would like to include, delete the # before header-includes and list the packages after hyphens on new lines.
+
+If you'd like to include a comment that won't be produced in your resulting file enclose it in a block like this.
+-->
+
+<!--
+If you receive a duplicate label error after knitting, restart your R session and knit again.
+-->
+
+```{r include_packages, include = FALSE}
+# This chunk ensures that the thesisdown package is
+# installed and loaded. This thesisdown package includes
+# the template files for the thesis.
+
+if(!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if(!require(thesisdown))
+  devtools::install_github("ismayc/thesisdown")
+if(!require(kableExtra))
+  install.packages("kableExtra")
+
+library(thesisdown)
+library(kableExtra)
+
+```
+
+<!-- You'll need to include the order that you'd like Rmd files to appear in the _bookdown.yml file for
+PDF files and also delete the # before rmd_files: there.  You'll want to not include 00(two-hyphens)prelim.Rmd
+and 00-abstract.Rmd since they are handled in the YAML above differently for the PDF version.
+-->
+
+<!-- The {.unnumbered} option here means that the introduction will be "Chapter 0." You can also use {-} for no numbers
+on chapters.
+-->

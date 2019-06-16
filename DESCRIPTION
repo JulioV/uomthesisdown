@@ -1,0 +1,20 @@
+Package: uomthesisdown
+Title: A fork of ismayc/thesisdown for creating University of Manchester theses using RMarkdown and the bookdown package
+Version: 0.0.1
+Authors@R: person("Julio", "Vega", email = "julio.vega@pm.me", role = c("aut", "cre"))
+Description:
+    Chester Imay's thesisdown package used the bookdown package and LaTeX and Word thesis templates from Reed College to produce theses. This package
+    modifies the LaTeX template to produce theses that conform to UoM's
+    PhD thesis guidelines.
+Depends:
+    R (>= 3.2.0),
+    devtools,
+    dplyr,
+    ggplot2,
+    bookdown,
+    knitr,
+    kableExtra
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

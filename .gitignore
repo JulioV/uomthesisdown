@@ -1,0 +1,9 @@
+inst/rmarkdown/templates/thesis/index/_book/
+inst/rmarkdown/templates/thesis/index/_bookdown_files/
+.Rproj.user/
+.Rhistory
+.vscode/
+*.Rproj
+template.*
+!template.tex
+thesis.log

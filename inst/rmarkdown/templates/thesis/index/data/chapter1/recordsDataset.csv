@@ -1,0 +1,26 @@
+Sensor                                 |p01             |p04             |p05             |p06              |p08             |p03             |p07            
+Accelerometer                          |136,980,993    |193,795,012    |194,753,567    |257,864,201     |218,442,799    |17,983,642     |27,218,713    
+Applications (foreground)              |NA             |NA             |NA             |NA              |NA             |15,562         |7,261         
+Applications (notifications)           |NA             |NA             |NA             |NA              |NA             |35,095         |30,231        
+Applications (crashes)                 |NA             |NA             |NA             |NA              |NA             |75             |83            
+Battery                                |236,207        |323,271        |341,999        |625,219         |457,444        |402,544        |732,559       
+Bluetooth                              |2,138          |4,605          |20,583         |1,883           |1,225          |371,271        |503,635       
+Calls data                             |382            |2,381          |4,131          |4,948           |3,429          |681            |112           
+Messages data                          |NA             |NA             |NA             |NA              |NA             |699            |681           
+Installations                          |NA             |NA             |NA             |NA              |NA             |295            |850           
+Light                                  |NA             |NA             |NA             |NA              |NA             |1,750,443      |4,242,509     
+Network data                           |129            |299            |360            |413             |554            |NA             |NA            
+Network traffic data                   |NA             |NA             |NA             |NA              |NA             |553,646        |1,291,747     
+Keyboard typing                        |NA             |NA             |NA             |NA              |NA             |38,565         |17,443        
+Processor                              |NA             |NA             |NA             |NA              |NA             |1,628,014      |1,817,493     
+Screen                                 |1,964          |11,498         |12,076         |12,611          |8,554          |21,052         |20,764        
+Significant Motion                     |NA             |NA             |NA             |NA              |NA             |381,593        |1,136,874     
+Telephony data                         |NA             |NA             |NA             |NA              |NA             |144,463        |341,154       
+Telephony GSM data                     |NA             |NA             |NA             |NA              |NA             |162,252        |343,299       
+Timezone                               |3,883          |5,675          |5,827          |9,077           |7,781          |NA             |NA            
+WiFi                                   |227,618        |332,161        |339,798        |533,043         |447,628        |6,596,966      |3,847,420     
+Plugin Google Activity Recognition     |NA             |NA             |NA             |NA              |NA             |3,510          |862,972       
+Plugin iOS Activity Recognition        |189,387        |326,515        |321,099        |0               |612,118        |NA             |NA            
+Plugin Ambient Noise                   |NA             |NA             |NA             |NA              |NA             |19,539         |243,456       
+Plugin Fused Location                  |140,898        |296,763        |318,279        |630,971         |454,215        |469,619        |508,543       
+Plugin Open Weather                    |5,171          |7,900          |10,682         |7,820           |8,971          |5,177          |9,381         

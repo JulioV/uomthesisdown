@@ -1,0 +1,5 @@
+book_filename: "thesis"
+chapter_name: "Chapter "
+rmd_files: ["index.Rmd", "01-chapter.Rmd", "02-chapter.Rmd", "03-conclusions.Rmd", "04-references.Rmd", "05-appendix.Rmd"]
+download: [["thesis.pdf", "PDF"], ["thesis.epub", "EPUB"], ["thesis.docx", "Word"]]
+delete_merged_file: true 

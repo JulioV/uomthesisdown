@@ -1,0 +1,45 @@
+Sensor                             |Sony Xperia Z3 Compact (freq)  |Blu Studio Energy (freq) 
+Accelerometer                      |On (5Hz)                       |On (5Hz)                 
+Applications (foreground)          |On                             |On                       
+Applications (history)             |On                             |On                       
+Applications (notifications)       |On                             |On                       
+Applications (crashes)             |On                             |On                       
+Barometer                          |On (5Hz)                       |-                        
+Battery                            |On                             |On                       
+Bluetooth                          |On (1 min)                     |On (1 min)               
+Calls data                         |On                             |On                       
+Messages data                      |On                             |On                       
+ESM                                |Not Used                       |Not Used                 
+Gravity                            |On (5Hz)                       |-                        
+Gyroscope                          |On (5Hz)                       |-                        
+Installations                      |On                             |On                       
+Light                              |On (5Hz)                       |On (5Hz)                 
+Linear accelerometer               |On (5Hz)                       |-                        
+GPS                                |Not Used                       |Not Used                 
+Magnetometer                       |On (5Hz)                       |On (5Hz)                 
+MQTT                               |Not Used                       |Not Used                 
+Network data                       |-                              |-                        
+Network traffic data               |On                             |On                       
+Keyboard typing                    |On                             |On                       
+Processor                          |On (10 sec)                    |On (10 sec)              
+Proximity                          |Not Used                       |-                        
+Rotation                           |On (5Hz)                       |-                        
+Screen                             |On                             |On                       
+Significant Motion                 |-                              |-                 
+Telephony data                     |On                             |On                       
+Telephony GSM data                 |On                             |On                       
+Temperature                        |-                              |-                        
+Timezone                           |On (1 day)                     |On (1 day)               
+WiFi                               |On (1 min)                     |On (1 min)               
+Plugin Google Activity Recognition |On (1 min)                     |-                        
+Plugin iOS Activity Recognition    |-                              |-                        
+Plugin Ambient Noise               |On (5 min)                     |On (5 min)               
+Plugin Contacts                    |Not Used                       |Not Used                 
+Plugin Conversations               |Not Used                       |Not Used                 
+Plugin Device Usage                |Not Used                       |Not Used                 
+Plugin Fitbit                      |Not Used                       |Not Used                 
+Plugin Google Login                |Not Used                       |Not Used                 
+Plugin Fused Location              |On (3 min)                     |On (3 min)               
+Plugin OpenWeather                 |On (1 hr)                      |On (1 hr)                
+Plugin TinyBlackBox                |Not Used                       |Not Used                 
+Used sensors                       |29                             |23                       
